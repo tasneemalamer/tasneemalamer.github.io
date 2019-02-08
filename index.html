@@ -1,0 +1,420 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="stylesheet" type="text/css" href="Vendors/Css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <link rel="stylesheet" type="text/css" href="Grid.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="queries.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.2.4/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Resources/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Resources/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Resources/img/favicon-16x16.png">
+    <link rel="manifest" href="/Resources/img/site.webmanifest">
+    <link rel="mask-icon" href="/Resources/img/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/Resources/img/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/Resources/img/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    
+
+    <title>TASCAFE</title>
+    
+    </head>
+    <body>
+        
+       <header>
+           <nav>
+                <div class="row">
+                    <img src="logo.png" alt="TASCAFE logo" class="logo">
+                    <img src="logo%20black.png" alt="TASCAFE logo" class="logo-black">
+                    <ul class="main-nav js--main-nav">
+                        <li><a href="#features"> Coffee Benefits</a></li>
+                        <li><a href="#steps"> Yemeni Coffee </a></li>
+                        <li><a href="#quotes"> Quotes </a></li>
+                        <li><a href="#contact"> Contact us </a> </li>
+                        
+                        
+                    </ul>
+               <a class="mobile-nav js--nav-icon"><i class="fas fa-bars"></i></a>
+               </div>
+            </nav>
+           <div class="hero-text">
+                <h1> A mug of coffee,<br>and expresso yourself.</h1>
+               <a class="btn btn-full js--scroll-to-music" href="#">Coffee Music</a>
+               <a class="btn btn-ghost js--scroll-to-start" href="#"> Show me more </a>
+                
+                </div>
+        </header>
+        
+            <section class="section-features js--section-features" id="features">
+                <div class="row">
+                    <h2>
+      <strong>Don't worry &mdash; Drink coffee all day!</strong>
+                    </h2>
+                    <p class="long-copy"> 
+                    There are good reasons to drink coffee and there are a few reasons not to . After all, you may have a caffeine-hater in your life. You know the type – they’re always telling you what’s bad for your health.Here’s a list of some good reasons to drink coffee.
+                    
+                    
+                    </p>
+                
+                </div>
+         
+                <div class="row js--wp-1"> 
+                    <div class="col span-1-of-3 box">
+                        
+                        <img src="data:image/png;base64,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" class="icon">
+                        
+                        <h3><strong>Having stronger DNA!</strong></h3>
+                        <p>
+                        A study published in the European Journal of Nutrition showed that coffee drinkers have DNA with stronger integrity instance of spontaneous DNA strand breakage.
+                        
+                        </p>
+                           <a class="btn-two" href="https://www.ncbi.nlm.nih.gov/pubmed/24740588" target="_blank">Prove it</a>
+
+                    </div>
+                <div class="col span-1-of-3 box">
+                        <img src="data:image/png;base64,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" class="icon">
+                    
+                        <h3><strong>Helps You Burn Fat!</strong></h3>
+                        <p>
+                        Caffeine is one of the few natural substances proven to aid fat burning.Several studies show that caffeine can boost your metabolic rate by 3–11%.
+                        
+                        </p>
+                            <a class="btn-two" href="https://www.healthline.com/nutrition/coffee-increase-metabolism" target="_blank">Prove it</a>
+                    </div>
+                <div class="col span-1-of-3 box">
+                    <img src="data:image/png;base64,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" class="icon">
+                    
+                        <h3><strong>Reduce heart attack risk!</strong></h3>
+                        <p>
+                       Researchers found that those who drink two or more cups of coffee daily after having a heart attack have the least risk of dying from the heart attack.
+                        
+                        </p>
+                    <a class="btn-two" href="https://journals.lww.com/coronary-artery/Citation/2016/11000/Coffee_reduces_the_risk_of_death_after_acute.8.aspx" target="_blank">Prove it</a>
+                    </div>
+                    
+                
+                </div>
+        </section>
+        <section class="section-types">
+            
+                <ul class="coffee-types">
+                    <li>
+                        <figure class="coffee-photo">
+                            <img src="cupaccino.jpg" alt="cupaccino">
+                       
+                        </figure>
+                        
+                   </li>
+                    <li>
+                        <figure class="coffee-photo">
+                            <img src="esspresso.jpg" alt="esspresso">
+
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="coffee-photo">
+                            <img src="latte.jpg" alt="latte">
+
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="coffee-photo">
+                            <img src="mocha.jpg" alt="mocha">
+
+                        </figure>
+                    </li>
+                    
+            </ul>
+            
+             <ul class="coffee-types">
+                 <li>
+                    <figure class="coffee-photo">
+                        <img src="Yemeni.jpg" alt="yemeni">
+
+                    </figure >
+                 </li>
+                 <li>
+                    <figure class="coffee-photo">
+                        <img src="arab.jpg" alt="arab">
+
+                    </figure>
+                 </li>
+                 <li>
+                    <figure class="coffee-photo">
+                        <img src="brazil.jpg" alt="brazil">
+
+                    </figure>
+                </li>
+                 <li>
+                    <figure class="coffee-photo">
+                        <img src="turk.jpg" alt="turk">
+                    </figure>
+                 </li>
+                 
+            </ul>
+            
+        </section>
+        
+        <section class="section-steps" id="steps">
+            <div class="rownow">
+                <h2> Yemeni Coffee Recipe &mdash; simple as 1 , 2 ,3 </h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2" class="steps-box">
+                    <img src="Yemeni%20coffee.png" alt="the specis" class="coffee-yemen js--wp-2">
+                
+                </div>
+                
+             <div class="col span-1-of-2" class="steps-box">
+                    <div class="works-step">
+                        <div>1</div>
+                        <p>Bring 3 cups of water to boil over medium-high heat on the stove!</p>
+                 </div>
+                 
+                 <div class="works-step">
+                        <div>2</div>
+                        <p>Add <strong>Yemeni Coffee </strong> husks , your spices (ginger , cinnamon , caraway seeds) and sugar to the water!</p>
+                 </div>
+                 
+                 <div class="works-step">
+                        <div>3</div>
+                        <p>Let it boil for 5-10 mins untill the coffee steeps, then poor and enjoy!</p>
+                 </div>
+                 
+                 <a href="https://www.youtube.com/watch?v=l6UqpBMhELE" target="_blank" class="youtube-btn">Watch Now</a>
+                 <a href="https://www.youtube.com/watch?v=K4RG14gnVBA" target="_blank" class="youtube-btn">About Yemeni Coffee</a>
+
+                </div>
+            
+            </div>
+          
+        </section>
+       
+        <section class="section-coffee-drinkers" id="quotes">
+            <div class="row">
+                <h2> Best Coffee Quotes Ever</h2>
+            
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <blockquote>
+                    It's very important to take care of yourself. Everyone's lives are so busy. Take at least an hour a day to recharge and do whatever makes you better. For grown-ups, whether it's a spa, sitting in a park with a book, or coffee, take time for yourself. 
+                    </blockquote>
+                    <cite><img src="Ana%20Ivanovic.jpg" alt="Ana Ivanovic "> Ana Ivanovic</cite>
+                
+                </div>
+                
+            <div class="col span-1-of-3">
+                    <blockquote>
+                   It was a beautiful custom. When a person who had a break of good luck entered a cafe and ordered a cup of coffee, he didn't pay just for one, but for two cups, allowing someone less fortunate who entered later to have a cup of coffee for free.
+                    </blockquote>
+                    <cite><img src="Tasneem%20Alamer.jpg" alt="Tasneem Alamer "> Tasneem Alamer</cite>
+                
+                </div>
+                
+                <div class="col span-1-of-3">
+                    <blockquote>
+                    I get up at sunrise. I'm a Buddhist, so I chant in the morning. My wife and I sit and have coffee together, but then it's list-making time. I have carpentry projects. We have roads we keep in repair. It's not back-breaking, but it's certainly aerobic and mildly strenuous. 
+                    </blockquote>
+                    <cite><img src="Andrea%20Hirata.jpg" alt="Andrea Hirata "> Andrea Hirata </cite>
+                
+                </div>
+                
+            </div>
+        
+        </section>
+        <section class="section-four" id="contact">
+            <div class="row">
+            
+            <h2>We are happy to hear from you </h2>
+            
+            </div>
+            <div class="row">
+                <form method="post" action="contact-form-handler.php" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your Name" required>
+                        
+                        
+                        </div>
+                    </div>  
+                    
+                     <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your Email" required>
+                        
+                        </div>
+                    </div>  
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="prefer">Coffee you prefer?</label>
+                        
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="prefer" id="prefer">
+                                <option value="Yemeni">Yemeni Coffee</option>
+                                <option value="Turkish"> Turkish Coffee </option>
+                                <option value="Arab"> Arabic Coffee</option>
+                                <option value="capuccino">Cappuccino</option>
+                                <option value="Latte">Latte</option>
+                                <option value="Mocka">Mocha</option>
+                                <option value="Espresso">Espresso</option>
+                            </select>
+                        
+                        </div>
+                        
+                    </div>  
+                     <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="like">Do you like Coffee?</label>
+                        
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="like" id="like" checked> Definitely,Yes
+                        </div>
+                    </div>  
+                 <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Drop Us a line</label>
+                        
+                        </div>
+                        <div class="col span-2-of-3">
+                           <textarea name="message" placeholder="Your Message"></textarea>
+                        </div>
+                    </div> 
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="Submit" value="Send it">
+                        
+                        </div>
+                    </div>  
+                </form>
+            
+            
+            
+            </div>
+        
+        
+        </section>
+        <section class="section-music js--section-music">
+            <div>
+                <h2>Music To listen to &mdash; Enjoy!</h2>
+            </div>
+            
+            
+            <div class="row">
+                <div class="col span-1-of-3" class="control">
+                    <audio controls loop>
+                        <source src="Soft%20Music.mp3" type="audio/mpeg" >
+                    
+                    </audio>
+                </div>
+            <div class="col span-1-of-3">
+                    <audio controls loop>
+                        <source src="Turkish%20music.mp3" type="audio/mpeg">
+                    
+                    </audio>
+                
+                </div>
+              <div class="col span-1-of-3">
+                    <audio controls loop>
+                        <source src="yemen-music.mp3" type="audio/mpeg">
+                    
+                    </audio>
+                
+                </div>
+            </div>
+        
+        
+        </section>
+        <section class="coffend">
+            <div class="row">
+                <img src="coffee%20end.png" class="coffeend">
+            </div>
+      
+        </section>
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footernav">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">IOS</a></li>
+                        <li><a href="#">Android App</a></li>    
+                    </ul>
+                
+                </div>
+            <div class="col span-1-of-2">
+                <ul class="sociallinks">
+                    <li><a href="https://www.facebook.com/tasneem.alamer" target="_blank"><i class="ion-logo-facebook"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCGuf5x-SYWvrUW_hFGT3z8w?view_as=subscriber" target="_blank"><i class="ion-logo-youtube"></i></a></li>
+                    <li><a href="https://www.instagram.com/ix.tasi/" target="_blank"><i class="ion-logo-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/tasneemo222" target="_blank"><i class="ion-logo-twitter"></i></a></li>
+                
+                </ul>
+                
+                
+                </div>
+            
+            </div>
+                <p>
+                    Copyright &copy; 2019 by Tasneem Alamer.All rights reserved.
+            </p>
+        
+        
+        </footer>
+        
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="style2.js"></script>
+        <script src="jquery.waypoints.min.js"></script>
+    
+    </body>
+    
+    
+    
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
